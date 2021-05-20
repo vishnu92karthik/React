@@ -8,6 +8,7 @@ import React from "react";
 //import Input from "./Input";
 //import TodoList from "./TodoList";
 import Greet from "./Greet";
+import  Welcome  from "./components/welcome";
 export default class App extends React.Component {
  /* state = {
     todos: [],
@@ -38,7 +39,10 @@ export default class App extends React.Component {
         <ClickCounter />
         <HoverCounter />
       </div> */
-  <Greet></Greet>
+      <div>
+  <Greet />
+  <Welcome />
+  </div>
     );
   }
 }

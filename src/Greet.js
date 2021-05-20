@@ -1,7 +1,5 @@
 import React  from 'react';
 
-function Greet(){
-    return <h1>Hi vishnu</h1>
-}
+const Greet = () => <hi>hi karthik</hi>
 
 export default Greet;
